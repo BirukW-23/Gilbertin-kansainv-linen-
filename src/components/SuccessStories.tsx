@@ -9,7 +9,7 @@ const SuccessStories = () => {
       location: "Tampere, Finland",
       image: image1,
       description: "Our team of 5 workers successfully completed a 6-month contract at a leading electronics factory in Tampere. All team members received permanent positions with competitive salaries.",
-      achievements: ["100% Job Retention", "Average Salary: €3,100/month", "Career Advancement: 8/12 promoted"],
+      achievements: ["100% Job Retention", "Average Salary: €1,800/month", "Career Advancement: 8/12 promoted"],
       industry: "Electronics Manufacturing"
     },
     {
@@ -17,7 +17,7 @@ const SuccessStories = () => {
       location: "Budapest, Hungary",
       image: image2,
       description: "A dedicated team of 15 construction workers who built their careers in Hungary's booming construction sector. From foundations to project management roles.",
-      achievements: ["Zero Accidents Record", "Average Salary: €2,800/month", "5 Team Leaders Promoted"],
+      achievements: ["Zero Accidents Record", "Average Salary: €1,500/month", "5 Team Leaders Promoted"],
       industry: "Construction & Infrastructure"
     },
     {
@@ -25,7 +25,7 @@ const SuccessStories = () => {
       location: "Oulu, Finland",
       image: "https://media.istockphoto.com/id/815720696/photo/group-of-passengers-standing-at-airport-lounge.webp?a=1&b=1&s=612x612&w=0&k=20&c=sMVahOGUH7j_yBVKnl26x-VXWh4r0vHvpGxwBcJrmVs=",
       description: "Our agricultural specialists working in Finnish greenhouses, mastering sustainable farming techniques while earning excellent wages and contributing to food security.",
-      achievements: ["Sustainable Farming Certified", "Average Salary: €2,900/month", "Contract Extensions: 90%"],
+      achievements: ["Sustainable Farming Certified", "Average Salary: €1,600/month", "Contract Extensions: 90%"],
       industry: "Sustainable Agriculture"
     }
   ];

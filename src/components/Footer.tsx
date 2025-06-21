@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Professional work visa and job placement services connecting
-              talented individuals with opportunities in Finland and Hungary.
+              individuals with opportunities in Finland and Hungary.
               Your trusted partner for European employment.
             </p>
           </div>

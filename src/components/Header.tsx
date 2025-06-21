@@ -1,8 +1,7 @@
-
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Link, useLocation } from 'react-router-dom';
-
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Link, useLocation } from "react-router-dom";
+import logo from '@/assets/logo.webp'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -16,56 +15,76 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">G</span>
+            <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center bg-white shadow">
+              <img
+                src={logo}
+                alt="Logo"
+                className="w-full h-full object-cover"
+              />
             </div>
+
             <div>
               <h1 className="text-xl font-bold text-gray-900">Gilbertin</h1>
               <p className="text-sm text-gray-600">kansainvälinen työagentti</p>
             </div>
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
-            <Link 
-              to="/" 
-              className={`transition-colors ${isActive('/') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+            <Link
+              to="/"
+              className={`transition-colors ${
+                isActive("/")
+                  ? "text-blue-600 font-medium"
+                  : "text-gray-700 hover:text-blue-600"
+              }`}
             >
               Home
             </Link>
-            <Link 
-              to="/about" 
-              className={`transition-colors ${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+            <Link
+              to="/about"
+              className={`transition-colors ${
+                isActive("/about")
+                  ? "text-blue-600 font-medium"
+                  : "text-gray-700 hover:text-blue-600"
+              }`}
             >
               About Us
             </Link>
-            <Link 
-              to="/services" 
-              className={`transition-colors ${isActive('/services') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+            <Link
+              to="/services"
+              className={`transition-colors ${
+                isActive("/services")
+                  ? "text-blue-600 font-medium"
+                  : "text-gray-700 hover:text-blue-600"
+              }`}
             >
               Services
             </Link>
-            <Link 
-              to="/testimonial" 
-              className={`transition-colors ${isActive('/testimonial') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+            <Link
+              to="/testimonial"
+              className={`transition-colors ${
+                isActive("/testimonial")
+                  ? "text-blue-600 font-medium"
+                  : "text-gray-700 hover:text-blue-600"
+              }`}
             >
               Testimonials
             </Link>
-            <Link 
-              to="/contact" 
-              className={`transition-colors ${isActive('/contact') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+            <Link
+              to="/contact"
+              className={`transition-colors ${
+                isActive("/contact")
+                  ? "text-blue-600 font-medium"
+                  : "text-gray-700 hover:text-blue-600"
+              }`}
             >
               Contact
             </Link>
             <Button className="bg-blue-600 hover:bg-blue-700">
-            <Link 
-              to="/contact" 
-            >
-              Apply Now
-            </Link>
+              <Link to="/contact">Apply Now</Link>
             </Button>
           </nav>
 
-          
-          <button 
+          <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -79,37 +98,57 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden pb-4">
             <nav className="flex flex-col space-y-4">
-              <Link 
-                to="/" 
-                className={`transition-colors ${isActive('/') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+              <Link
+                to="/"
+                className={`transition-colors ${
+                  isActive("/")
+                    ? "text-blue-600 font-medium"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
-              <Link 
-                to="/about" 
-                className={`transition-colors ${isActive('/about') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+              <Link
+                to="/about"
+                className={`transition-colors ${
+                  isActive("/about")
+                    ? "text-blue-600 font-medium"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
               </Link>
-              <Link 
-                to="/services" 
-                className={`transition-colors ${isActive('/services') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+              <Link
+                to="/services"
+                className={`transition-colors ${
+                  isActive("/services")
+                    ? "text-blue-600 font-medium"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </Link>
-              <Link 
-                to="/testimonial" 
-                className={`transition-colors ${isActive('/testimonial') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+              <Link
+                to="/testimonial"
+                className={`transition-colors ${
+                  isActive("/testimonial")
+                    ? "text-blue-600 font-medium"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Testimonials
               </Link>
-              <Link 
-                to="/contact" 
-                className={`transition-colors ${isActive('/contact') ? 'text-blue-600 font-medium' : 'text-gray-700 hover:text-blue-600'}`}
+              <Link
+                to="/contact"
+                className={`transition-colors ${
+                  isActive("/contact")
+                    ? "text-blue-600 font-medium"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact

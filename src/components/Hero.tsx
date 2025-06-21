@@ -19,14 +19,14 @@ const Hero = () => {
             Employment
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto font-light">
-            Professional work visa and job placement services connecting talented individuals 
+             work visa and job placement services connecting  individuals 
             with opportunities in Finland and Hungary. Start your European career journey today.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-10 py-6 text-lg font-semibold">
               Find Your Dream Job
             </Button>
-            <Button size="lg" variant="outline" className="px-10 py-6 text-lg font-semibold border-2 border-white text-white hover:bg-white hover:text-gray-900">
+            <Button size="lg" variant="outline" className="px-10 py-6 text-lg font-semibold border-2 border-white text-gray-900">
               <Link to='/about'>
               Learn More
               </Link>
