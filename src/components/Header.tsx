@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
-import logo from '@/assets/logo.webp'
+import logo from '@/assets/logo (3).png'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -15,7 +15,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center bg-white shadow">
+            <div className="w-20 h-18 rounded-full overflow-hidden flex items-center justify-center bg-white ">
               <img
                 src={logo}
                 alt="Logo"

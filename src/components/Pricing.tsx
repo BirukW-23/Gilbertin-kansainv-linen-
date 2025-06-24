@@ -78,7 +78,7 @@ const Pricing = () => {
               <div className="mt-6">
                 <div className="flex items-center justify-center space-x-2">
                   <div className="text-2xl text-gray-400 line-through">$250</div>
-                  <div className="text-5xl font-bold text-green-600">$125</div>
+                  <div className="text-5xl font-bold text-green-600">$130</div>
                 </div>
                 <div className="text-gray-500 mt-2">Per registration</div>
               </div>
