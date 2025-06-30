@@ -77,7 +77,7 @@ const Header = () => {
                   : "text-gray-700 hover:text-blue-600"
               }`}
             >
-              Contact
+              Contact Us
             </Link>
             <Button className="bg-blue-600 hover:bg-blue-700">
               <Link to="/contact">Apply Now</Link>

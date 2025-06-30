@@ -99,8 +99,8 @@ const Countries = () => {
           <h4 className="font-semibold text-gray-900 text-lg">Finland Office</h4>
         </div>
         <p className="text-sm text-gray-700"><strong>Company Name:</strong> Nordic WorkForce Oy</p>
-        <p className="text-sm text-gray-700"><strong>Registration No:</strong> FI-1234567-8</p>
-        <p className="text-sm text-gray-700"><strong>Address:</strong> Hämeenkatu 10, 33100 Tampere, Finland</p>
+        <p className="text-sm text-gray-700"><strong>Registration No:</strong>FI09845231</p>
+        <p className="text-sm text-gray-700"><strong>Address:</strong>Helsinki Business District,00100 Helsinki, Finland</p>
         <p className="text-sm text-gray-700"><strong>Status:</strong> Licensed Employment Agency</p>
       </div>
       <div className="text-left border rounded-md p-4 shadow-sm bg-gray-50">
@@ -110,7 +110,7 @@ const Countries = () => {
         </div>
         <p className="text-sm text-gray-700"><strong>Company Name:</strong> Central Europe Recruitment Kft.</p>
         <p className="text-sm text-gray-700"><strong>Registration No:</strong> HU-9876543-1</p>
-        <p className="text-sm text-gray-700"><strong>Address:</strong> Andrássy út 66, 1062 Budapest, Hungary</p>
+        <p className="text-sm text-gray-700"><strong>Address:</strong>Budapest Business Center, 1051 Budapest, Hungary</p>
         <p className="text-sm text-gray-700"><strong>Status:</strong> Certified Recruitment Service</p>
       </div>
     </div>

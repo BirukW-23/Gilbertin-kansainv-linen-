@@ -86,7 +86,7 @@ const Footer = () => {
                 <div className="text-blue-400 mt-1">🇫🇮</div>
                 <div>
                   <div className="font-medium">Finland Office</div>
-                  <div className="text-gray-300 text-sm">Helsinki, Finland</div>
+                  <div className="text-gray-300 text-sm">Helsinki Business District,00100 Helsinki, Finland</div>
                   <div className="text-gray-300 text-sm">+358 9 876 5432</div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <div className="text-blue-400 mt-1">🇭🇺</div>
                 <div>
                   <div className="font-medium">Hungary Office</div>
-                  <div className="text-gray-300 text-sm">Budapest, Hungary</div>
+                  <div className="text-gray-300 text-sm">Budapest Business Center, 1051 Budapest, Hungary</div>
                   <div className="text-gray-300 text-sm">+36 1 234 5678</div>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Footer = () => {
                 <div className="text-blue-400 mt-1">📧</div>
                 <div>
                   <div className="text-gray-300 text-sm">
-                    info@gilbertin.com
+                  info@kansainvalinentyo.com
                   </div>
                 </div>
               </div>
